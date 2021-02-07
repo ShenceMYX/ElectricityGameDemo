@@ -50,9 +50,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   flySpeed: 5
-  electricField: {fileID: 7408825165714092679, guid: 668010c34219547f1b5568c88b6ae533,
-    type: 3}
-  electricFieldLength: 5
+  stopDistance: 0.1
+  layer:
+    serializedVersion: 2
+    m_Bits: 1536
 --- !u!58 &6721737893638524603
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -121,6 +122,7 @@ MonoBehaviour:
   electricField: {fileID: 7408825165714092679, guid: 668010c34219547f1b5568c88b6ae533,
     type: 3}
   electricFieldLength: 5
+  chargeOffset: 0.5
 --- !u!1 &7503305316144124501
 GameObject:
   m_ObjectHideFlags: 0

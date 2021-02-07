@@ -85,7 +85,7 @@ namespace Power.Character
                             EnergyIncreaseCharging();
                         }
                     }
-                    else
+                    else//蓄力达到最大蓄力时间-》蓄力时间不能再增加 永远等于最大蓄力时间
                         throwStartTimer = throwMaxTime;
                 }
 

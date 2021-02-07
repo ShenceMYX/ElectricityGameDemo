@@ -60,7 +60,7 @@ namespace Common
         private static void UseObject(Vector3 pos, Quaternion rotate, GameObject go)
         {
             go.transform.position = pos;
-            go.transform.rotation = Quaternion.Euler(new Vector3(0,90,0));
+            go.transform.rotation = rotate;
             go.SetActive(true);
             foreach (var item in go.GetComponents<IResetable>())
             {

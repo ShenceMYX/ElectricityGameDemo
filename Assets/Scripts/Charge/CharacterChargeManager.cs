@@ -38,6 +38,7 @@ namespace Power.Charge
             chargeGO.transform.parent = null;
             //电荷向目标位置投掷
             StartCoroutine(chargeGO.GetComponent<ElectricCharge>().FLy(destPos));
+            //chargeGO.GetComponent<ElectricCharge>().Fly(destPos);
         }
     }
 }
